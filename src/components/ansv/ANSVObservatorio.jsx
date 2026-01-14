@@ -48,7 +48,6 @@ const ONATCAHub = () => {
                     {isSidebarOpen && (
                         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="overflow-hidden">
                             <h2 className="font-bold text-base tracking-tight text-white uppercase italic">ONATCA</h2>
-                            <p className="text-[9px] text-slate-500 uppercase tracking-widest font-bold">Observatorio Nacional Antigravedad</p>
                         </motion.div>
                     )}
                 </div>
